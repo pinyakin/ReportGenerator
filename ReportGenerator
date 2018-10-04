@@ -1,0 +1,30 @@
+2018-10-04 12:53:41 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 12:54:30 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:02:04 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:11:07 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:11:19 ERROR PageGenerator:77 - Problems with settings from xml file
+java.lang.IndexOutOfBoundsException: Index 2 out-of-bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:440)
+	at generators.PageGenerator.generate(PageGenerator.java:46)
+	at generators.ReportGenerator.generate(ReportGenerator.java:35)
+	at Generator.main(Generator.java:29)
+2018-10-04 13:11:19 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:11:59 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:12:22 ERROR PageGenerator:77 - Problems with settings from xml file
+java.lang.ArithmeticException: / by zero
+	at generators.PageGenerator.generate(PageGenerator.java:32)
+	at generators.ReportGenerator.generate(ReportGenerator.java:35)
+	at Generator.main(Generator.java:29)
+2018-10-04 13:12:22 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:12:57 ERROR PageGenerator:77 - Problems with settings from xml file
+java.lang.ArithmeticException: / by zero
+	at generators.PageGenerator.generate(PageGenerator.java:32)
+	at generators.ReportGenerator.generate(ReportGenerator.java:35)
+	at Generator.main(Generator.java:29)
+2018-10-04 13:12:57 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:13:10 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
+2018-10-04 13:13:15 INFO  ReportGenerator:50 - Report "example-report.txt" is done!
